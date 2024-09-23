@@ -1,0 +1,99 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+.hero {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  /* color: white; */
+  padding: 130px 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+
+.hero .cta-button {
+  background-color: #007bff;
+  color: white;
+  padding:14px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+
+.products {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product-item img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.product-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.product-item button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
